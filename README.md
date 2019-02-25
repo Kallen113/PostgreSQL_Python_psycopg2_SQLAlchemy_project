@@ -1,4 +1,4 @@
-# PostgreSQL_psycopg2_project
+# PostgreSQL_psycopg2_SQLAlchemy_project
 
 For this repository, I used a PostGreSQL server to implement part of the CRUD process (i.e., create a table within a database, insert rows of data into 1 or more of the table's columns, update rows of data, and delete data) and some SELECT queries. In one of these files (see the "Using SQLAlchemy..." ipython notebook file), I also implement some more advanced queries, such as JOIN commands: FULL OUTER JOINs and an INNER JOIN. 
 
