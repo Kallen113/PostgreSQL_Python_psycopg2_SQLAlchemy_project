@@ -6,7 +6,7 @@ To implement these SQL commands, I used 2 different Python libraries.First, I us
 
 1.) For 1 of the uploaded Jupyter notebooks, the data used to create and insert data into the database comprises employment and other economic data on several software and biotech companies based in the SF Bay Area. The CRUD and SELECT queries implemented on these data makes use of the psycopg2 library.
 
-2.) For the other notebook, I used gamefaqs and IGN video game ratings data, and used SQLAlchemy to implement similar SQL commands to the same PostGreSQL server. However, as noted above, the syntax is different and much more similar to regular Python code.
+2.) For the other notebook, I used gamefaqs and IGN video game ratings data, and used SQLAlchemy to implement similar SQL commands to the same PostGreSQL server. However, as noted above, the syntax is different and much more similar to regular Python code. In addition, SQLAlchemy allows for SQL commands to be implemented more efficiently than psycopg2. 
 
 Caveats: 
 The database does not contain any sensitive information, so the password and database information are shown. Of course, this would not be implemented if I was doing a project for a company's personal database or any database containing sensitive and/or confidential data. 
