@@ -11,4 +11,4 @@ However, for Part III, instead of merely inserting data bia "INSERT INTO, this n
 2.) For the other 3 notebook, I used gamefaqs and IGN video game ratings data. I imported the SQLAlchemy library to implement various SQL commands on a PostgreSQL server and database. However, as noted above, the syntax is different and much more similar to regular Python code. In addition, SQLAlchemy allows for SQL commands to be implemented more efficiently than psycopg2. 
 
 Caveats: 
-The database does not contain any sensitive information, but the actual password to the database has been replaced with a fake password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented, using Jupyter's "Find and Replace" feature.  
+The database does not contain any sensitive information, but the actual password to the database has been replaced with a fake password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented, using either Jupyter's "Find and Replace" feature or manually doing Ctrl+F searches.  
