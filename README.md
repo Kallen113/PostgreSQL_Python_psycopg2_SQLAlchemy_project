@@ -25,4 +25,4 @@ c.) clauses for modifying or rerranging aggregates, such as GROUP BY, ORDER BY, 
 d.) various boolean operators such as BETWEEN (i.e., for specifying ranges) and OR. 
 
 Caveats: 
-The database does not contain any sensitive information, but the actual password to the database has been replaced with a fake password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented, using either Jupyter's "Find and Replace" feature or manually doing Ctrl+F searches.  
+The database does not contain any sensitive information, but the actual password to the database has been replaced with a fake password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented, using Jupyter's "Find and Replace" feature before uploading these notebook files to GitHub.  
