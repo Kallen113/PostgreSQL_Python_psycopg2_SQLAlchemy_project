@@ -1,8 +1,8 @@
 # PostgreSQL_psycopg2_SQLAlchemy_project
 
-There are 5 Jupyter Python notebooks uploaded onto this repository. The scripts/Jupyter notebooks can be found in the 2 folders, which contain 2+ notebooks using the psyocpg2 and SQLAlchemy libraries, respectively. Here's a brief synopsis of what these folders contain:
+There are 6 Jupyter Python notebooks uploaded onto this repository. The scripts/Jupyter notebooks can be found in the 2 folders, which contain 2+ notebooks using the psyocpg2 and SQLAlchemy libraries, respectively. Here's a brief synopsis of what these folders contain:
 
-a.) psycopg2: contains 2 Jupyter notebook files (Parts I and V) of Python code implementing commands on a PostgreSQL database via the psycopg2 library.
+a.) psycopg2: contains 3 Jupyter notebook files (Parts I, V, and VI) of Python code implementing commands on a PostgreSQL database via the psycopg2 library.
 
 b.) SQLAlchemy: contains 3 Jupyter notebook files (Parts II through IV) of Python code implementing commands on a PostgreSQL database via the SQLAlchemy library. This inclues importing a CSV file and inserting the data into a new SQL table, creating a table and inserting data manually, and implementing various SELECT queries.
 
@@ -23,6 +23,8 @@ a.) aggregation methods (e.g, AVG, COUNT, SUM);
 b.) SELECT...WHERE...LIKE to query on specific string charactersitics (e.g., company names starting with "S"); 
 c.) clauses for modifying or rerranging aggregates, such as GROUP BY, ORDER BY, and HAVING; 
 d.) various boolean operators such as BETWEEN (i.e., for specifying ranges) and OR. 
+
+4.) Part VI takes the IMDB films data--the same datasets as those I created via the web crawler in the "Python_Web_Crawler_IMDB_data_analysis" repo--and creates a new table within a PostgreSQL database, inserting the IMDB films data into this table. The notebook then proceeds to perform various queries on the data, especially those pertaining to film genre and IMDB ratings.
 
 Caveats: 
 The database does not contain any sensitive information, but the actual password to the database has been replaced with a fake password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented, using Jupyter's "Find and Replace" feature before uploading these notebook files to GitHub.  
