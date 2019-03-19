@@ -2,12 +2,12 @@
 ## Overview and Summary:
 There are 6 Jupyter Python notebooks uploaded onto this repository. The scripts/Jupyter notebooks can be found in the 2 folders, which contain 2+ notebooks using the psyocpg2 and SQLAlchemy libraries, respectively. Here's a brief synopsis of what these folders contain:
 
-a.) psycopg2: contains 3 Jupyter notebook files (Parts I, V, and VI) of Python code implementing commands on a PostgreSQL database via the psycopg2 library.
+a.) psycopg2: contains 3 Jupyter notebook files (Parts I, V, and VI) of Python code implementing commands on a PostgreSQL database via the psycopg2 library. Part VI uses the IMDB dataset curated and extracted via an ETL and web crawler program from one of my other GitHub repos.
 
 b.) SQLAlchemy: contains 3 Jupyter notebook files (Parts II through IV) of Python code implementing commands on a PostgreSQL database via the SQLAlchemy library. This inclues importing a CSV file and inserting the data into a new SQL table, creating a table and inserting data manually, and implementing various SELECT queries.
 
 
-For this repository, I used a PostGreSQL server to implement part of the CRUD process (i.e., create a table within a database, insert rows of data into 1 or more of the table's columns, update rows of data, and delete data) and some SELECT queries. 
+For this repository, I used a PostGreSQL server to implement part of the CRUD process (i.e., create a table within a database, insert records/rows of data into 1 or more of the table's columns, update records of data, and delete data) and some SELECT queries. 
 
 ## Code samples:
 Before describing the project in more detail, here are a few code samples from the project:
@@ -24,7 +24,7 @@ eng = create_engine("postgres://postgres:five@localhost:5433/films")
 imdb_data.to_sql("imdb_data", eng)
 ```
 
-The following code implements a SELECT...WHERE query using the psycopg2 library:
+The following code implements a SELECT...WHERE query using the psycopg2 library. The following query selects data from the IMDB dataset in which the film genre comprises Film-Noir (e.g., Double Indemnity):
 ```
 import psycopg2 
 
