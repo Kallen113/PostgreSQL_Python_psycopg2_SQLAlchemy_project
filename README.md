@@ -18,7 +18,7 @@ The following code uses the pandas library to import data from a Pandas Datafram
 from sqlalchemy import create_engine
 
 #initialize SQLAlchemy engine by specifying login details and name of database
-eng = create_engine("postgres://postgres:five@localhost:5433/films")
+eng = create_engine("postgres://postgres:********@localhost:5433/films")
 
 #use to_sql() method to export the imdb_metascore dataframe to the SQL database as a table
 imdb_data.to_sql("imdb_data", eng)
@@ -32,7 +32,7 @@ connection = None
 
 try:
     #specify database, username, password, etc. so Python can connect to it via the psycopg2 library
-    connection = psycopg2.connect(database="films", user = "postgres", password = "five", host="localhost", port="5433")
+    connection = psycopg2.connect(database="films", user = "postgres", password = "*******", host="localhost", port="5433")
     #initialize connection to database
     cursor = connection.cursor()
     
