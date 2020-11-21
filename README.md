@@ -78,4 +78,4 @@ d.) various boolean operators such as BETWEEN (i.e., for specifying ranges) and 
 4.) Part VI takes the IMDB films data--the same datasets as those I created via the web crawler in the "Python_Web_Crawler_IMDB_data_analysis" repo--and creates a new table within a PostgreSQL database, inserting the IMDB films data into this table. The notebook then proceeds to perform various queries on the data, especially those pertaining to film genre and IMDB ratings.
 
 ### Caveats: 
-The database does not contain any sensitive information, but the actual password to the database has been replaced with a fake password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented, using Jupyter's "Find and Replace" feature before uploading these notebook files to GitHub.  
+The database does not contain any sensitive information, but the actual username and password to the database have been replaced with a fake username and password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented.  
