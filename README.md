@@ -77,5 +77,22 @@ d.) various boolean operators such as BETWEEN (i.e., for specifying ranges) and 
 
 4.) Part VI takes the IMDB films data--the same datasets as those I created via the web crawler in the "Python_Web_Crawler_IMDB_data_analysis" repo--and creates a new table within a PostgreSQL database, inserting the IMDB films data into this table. The notebook then proceeds to perform various queries on the data, especially those pertaining to film genre and IMDB ratings.
 
+### Packages required to run these scripts:
+
+/* The various Python script were run using Python 3.7 via Jupyter notebooks. Several data analysis and data visualization libraries
+are used in these scripts, in addition to beautifulsoup, which was used to implement part of the web crawler apps.
+
+Here's a complete list of the libraries that are used (excluding some of the specific modules contained within these libraries):
+
+matlotlib; Pandas; Seaborn; StatsModels; numpy; BeautifulSoup; requests; time; random; warnings; SQLAlchemy; and psycopg2.
+
+
+Anaconda and Jupyter is not necessarily needed for implementing the scripts, but would be recommended since Anaconda
+contains many of these libraries built into them--e.g., Pandas, matplotlib. 
+
+If using Anaconda/Jupyter, only 1 additional library--the beautifulsoup library-- will be required to install separately, 
+via pip install on terminal:
+<<< pip install beautifulsoup4
+
 ### Caveats: 
 The database does not contain any sensitive information, but the actual username and password to the database have been replaced with a fake username and password (to help avoid SQL injections) after the cells in the Jupyter notebook were already implemented.  
